@@ -5,7 +5,7 @@ import plotly.express as px
 st.header("Interactive Data Visualization with Plotly and Streamlit")
 st.write("This app allows you to visualize data interactively using Plotly and Streamlit.")
 
-car_data = pd.read_csv("/home/mad52xd/proyect_s7/vehicles_us.csv")
+car_data = pd.read_csv("vehicles_us.csv")
 hist_button_o= st.button("Show Mileaage Histogram")
 hist_button_p = st.button("Show Prices Histogram")
 
